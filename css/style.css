@@ -55,12 +55,12 @@ ol{padding:0;}
 #header h2 {padding-left:0px;color: #9ea0a6;font-family: "Open Sans", sans-serif;font-size: 22px;font-weight: lighter;letter-spacing: 1px;}
 
 #our-works .container{padding:0;}
-#itaca{background:url(../img/works/itaca-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#9013FE;}
+/* #itaca{background:url(../img/works/itaca-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#9013FE;}
 #fab11{background:url(../img/works/fab11-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#434242;}
 #notegraphy{background:url(../img/works/notegraphy-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#434242;}
 #hacksboard{background:url(../img/works/hacksboard-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#434242;}
 #smartcitizen{background:url(../img/works/smartcitizen-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#434242;}
-#lafosca{background:url(../img/works/lafosca-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#434242;}
+#lafosca{background:url(../img/works/lafosca-page.jpg);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#434242;} */
 .img-desktop{display:block;}
 .img-mobile{display:none;}
 .portfolio-item .hover-bg{overflow:hidden;position:relative;}
