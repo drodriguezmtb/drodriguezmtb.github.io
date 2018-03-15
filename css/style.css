@@ -70,7 +70,7 @@ ol{padding:0;}
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
-.hover-bg .hover-text{position:absolute;text-align:center;margin:0 auto;color:#fff;padding:25% 0;height:80%;width:80%;opacity:0;transition:all 0.5s;}
+/* .hover-bg .hover-text{position:absolute;text-align:center;margin:0 auto;color:#fff;padding:25% 0;height:80%;width:80%;opacity:0;transition:all 0.5s;}
 .hover-bg .hover-text>h4{opacity:0;letter-spacing:2px;-webkit-transform:translateY(100%);transform:translateY(100%);transition:all 0.4s;}
 .hover-bg:hover .hover-text>h4{opacity:1;-webkit-backface-visibility:hidden;-webkit-transform:translateY(0);transform:translateY(0);}
 .hover-bg .hover-text>i{opacity:1;-webkit-transform:translateY(0);transform:translateY(0);transition:all 0.4s;}
@@ -78,7 +78,7 @@ ol{padding:0;}
 .hover-bg:hover .hover-text{opacity:1;}
 .hover-bg .line{background:#fff none repeat scroll 0 0;height:1px;text-align:center;width:50px;}
 .hover-bg .hover-text>hr{opacity:1;-webkit-transform:translateX(100%);transform:translateX(100%);transition:all 0.5s;}
-.hover-bg:hover .hover-text>hr{opacity:1;-webkit-backface-visibility:hidden;-webkit-transform:translateX(0);transform:translateX(0);}
+.hover-bg:hover .hover-text>hr{opacity:1;-webkit-backface-visibility:hidden;-webkit-transform:translateX(0);transform:translateX(0);} */
 
 #resume{padding:0 0 100px 0;}
 .education article{padding:0 0 0px;}
