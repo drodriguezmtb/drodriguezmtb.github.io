@@ -80,10 +80,11 @@ ol{padding:0;}
 .hover-bg .hover-text>hr{opacity:1;-webkit-transform:translateX(100%);transform:translateX(100%);transition:all 0.5s;}
 .hover-bg:hover .hover-text>hr{opacity:1;-webkit-backface-visibility:hidden;-webkit-transform:translateX(0);transform:translateX(0);} */
 
-#resume{padding:0 0 100px 0;}
-.education article{padding:0 0 0px;}
-.education .holder{border-bottom:1px solid #374863;margin:0 0 50px;overflow:hidden;}
+#resume{padding:0 0 30px 0;}
+#resume article{padding:10px 0;}
+#resume .holder{border-bottom:1px solid #1B222D;margin:0 0 30px;overflow:hidden;}
 .education h2{color:#fff;font-size:20px;letter-spacing:2px;line-height:1.8;margin:12px 0;}
+.ic-category {float:left;margin-top:24px;margin-right:12px;}
 
 #map{height:400px;}
 
