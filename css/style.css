@@ -102,6 +102,7 @@ ul.footer-social li{display:inline-block;margin-right:8px;}
 
 @media (max-width:768px){
 #our-works .container{padding:0 15px;}
+#main-menu.navbar-default .navbar-nav > li > a{font-size:14px;}
 .img-desktop{display:none;height:400px;}
 .img-mobile{display:block;}
 .col-md-4.col-sm-6.photo{text-align:center;}
