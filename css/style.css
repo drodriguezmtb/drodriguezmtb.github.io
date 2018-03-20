@@ -32,6 +32,17 @@ ol{padding:0;}
 ::-moz-selection{background:#ECFD63;color:#333;}
 
 /*#main-menu{padding:20px;transition:all 0.8s;}*/
+.navbar-nav{
+  -webkit-animation:intromenu 0.5s ease-out 1.2s 1 both;
+  -moz-animation:intromenu 0.5s ease-out 1.2s 1 both;
+  -o-animation:intromenu 0.5s ease-out 1.2s 1 both;
+  animation:intromenu 0.5s ease-out 1.2s 1 both;
+}
+@-webkit-keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
+@-moz-keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
+@-o-keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
+@keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
+
 #main-menu.navbar-default{background-color:#090C11;}
 #main-menu a.navbar-brand{text-transform:uppercase;letter-spacing:3px;font-size:16px;color:#444444;font-weight:500;font-family:'Montserrat', sans-serif;}
 #main-menu.navbar-default .navbar-nav > li > a{color:#fff;font-size:12px;letter-spacing:1px;}
@@ -49,12 +60,31 @@ ol{padding:0;}
 .icon-bar{background-color:#fff !important;}
 .navbar-default .navbar-toggle:hover>.icon-bar,
 .navbar-default .navbar-toggle:focus>.icon-bar{background-color:#9013FE !important;}
-.logo{height:35px;padding:15px 0 0 0;}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{border-color:transparent!important;}
+.logo{height:35px;padding:15px 0 0 0;
+  -webkit-animation:intrologo 0.5s ease-out 1.2s 1 both;
+  -moz-animation:intrologo 0.5s ease-out 1.2s 1 both;
+  -o-animation:intrologo 0.5s ease-out 1.2s 1 both;
+  animation:intrologo 0.5s ease-out 1.2s 1 both
+}
+@-webkit-keyframes intrologo{0%{opacity:0;-webkit-transform:translateX(-100%);transform:translateX(-100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
+@-moz-keyframes intrologo{0%{opacity:0;-webkit-transform:translateX(-100%);transform:translateX(-100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
+@-o-keyframes intrologo{0%{opacity:0;-webkit-transform:translateX(-100%);transform:translateX(-100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
+@keyframes intrologo{0%{opacity:0;-webkit-transform:translateX(-100%);transform:translateX(-100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
 
 #header{margin:185px 0 190px;}
 #header h1 {padding-left:0px;font-size: 26px;margin-bottom: 10px;}
 #header h2 {padding-left:0px;color: #9ea0a6;font-family: "Open Sans", sans-serif;font-size: 22px;font-weight:300;letter-spacing: 1px;}
+.headline{
+  -webkit-animation:introheader 1s ease-out 0.5s 1 both;
+  -moz-animation:introheader 1s ease-out 0.5s 1 both;
+  -o-animation:introheader 1s ease-out 0.5s 1 both;
+  animation:introheader 1s ease-out 0.5s 1 both;
+}
+@-webkit-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes introheader{0%{opacity:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
 
 #our-works .container{padding:0;}
 .top-space{margin:30px 0;}
@@ -65,8 +95,56 @@ ol{padding:0;}
 .portfolio-item h6 {text-align: right!important;}
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1);}
-
-.test-img{background:green;}
+.an-portfolio-1{
+  -webkit-animation:introheader 1s ease-out 0.5s 1 both;
+  -moz-animation:introheader 1s ease-out 0.5s 1 both;
+  -o-animation:introheader 1s ease-out 0.5s 1 both;
+  animation:introheader 1s ease-out 0.5s 1 both;
+}
+@-webkit-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+.an-portfolio-2{
+  -webkit-animation:introheader 1.1s ease-out 0.5s 1 both;
+  -moz-animation:introheader 1.1s ease-out 0.5s 1 both;
+  -o-animation:introheader 1.1s ease-out 0.5s 1 both;
+  animation:introheader 1.1s ease-out 0.5s 1 both;
+}
+@-webkit-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+.an-portfolio-3{
+  -webkit-animation:introheader 1.2s ease-out 0.5s 1 both;
+  -moz-animation:introheader 1.2s ease-out 0.5s 1 both;
+  -o-animation:introheader 1.2s ease-out 0.5s 1 both;
+  animation:introheader 1.2s ease-out 0.5s 1 both;
+}
+@-webkit-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+.an-portfolio-4{
+  -webkit-animation:introheader 1.3s ease-out 0.5s 1 both;
+  -moz-animation:introheader 1.3s ease-out 0.5s 1 both;
+  -o-animation:introheader 1.3s ease-out 0.5s 1 both;
+  animation:introheader 1.3s ease-out 0.5s 1 both;
+}
+@-webkit-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+.an-portfolio-5{
+  -webkit-animation:introheader 1.4s ease-out 0.5s 1 both;
+  -moz-animation:introheader 1.4s ease-out 0.5s 1 both;
+  -o-animation:introheader 1.4s ease-out 0.5s 1 both;
+  animation:introheader 1.4s ease-out 0.5s 1 both;
+}
+@-webkit-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes introheader{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
 
 #resume{padding:0 0 30px 0;}
 #resume article{padding:10px 0;}
@@ -75,17 +153,6 @@ ol{padding:0;}
 .ic-category {float:left;margin-top:24px;margin-right:12px;}
 
 #map{height:400px;}
-
-.headline{
-  -webkit-animation:intromenu 0.5s ease-out 1.2s 1 both;
-  -moz-animation:intromenu 0.5s ease-out 1.2s 1 both;
-  -o-animation:intromenu 0.5s ease-out 1.2s 1 both;
-  animation:intromenu 0.5s ease-out 1.2s 1 both
-}
-@-webkit-keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
-@-moz-keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
-@-o-keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
-@keyframes intromenu{0%{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}
 
 #footer{padding:90px 0 80px 0;}
 ul.footer-social li{display:inline-block;margin-right:8px;}
