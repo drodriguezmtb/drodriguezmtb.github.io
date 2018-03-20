@@ -159,6 +159,27 @@ ul.footer-social li{display:inline-block;margin-right:8px;}
 #footer p{font-size:11px;letter-spacing:0.2px;text-align:right;color:rgba(255,255,255,.5);line-height:20px;}
 #footer i.fa{height:30px;width:30px;font-size:17px;padding:4px 5px;color:#fff;transition:all 0.5s;}
 #footer i.fa:hover{color:#d069ff;}
+.an-social{
+  -webkit-animation:ansocial 0.5s ease-out 1.2s 1 both;
+  -moz-animation:ansocial 0.5s ease-out 1.2s 1 both;
+  -o-animation:ansocial 0.5s ease-out 1.2s 1 both;
+  animation:ansocial 0.5s ease-out 1.2s 1 both
+}
+@-webkit-keyframes ansocial{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes ansocial{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes ansocial{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes ansocial{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+.an-copyright{
+  -webkit-animation:ancopy 0.5s ease-out 1.2s 1 both;
+  -moz-animation:ancopy 0.5s ease-out 1.2s 1 both;
+  -o-animation:ancopy 0.5s ease-out 1.2s 1 both;
+  animation:ancopy 0.5s ease-out 1.2s 1 both;
+}
+@-webkit-keyframes ancopy{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-moz-keyframes ancopy{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-o-keyframes ancopy{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes ancopy{0%{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+
 
 /* Responsive */
 @media (max-width:1200px){
