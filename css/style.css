@@ -74,7 +74,7 @@ ol{padding:0;}
 
 #header{margin:185px 0 190px;}
 #header h1 {padding-left:0px;font-size: 26px;margin-bottom: 10px;}
-#header h2 {padding-left:0px;color: #9ea0a6;font-family: "Open Sans", sans-serif;font-size: 22px;font-weight:300;letter-spacing: 1px;}
+#header h2 {padding-left:0px;color: #9ea0a6;font-family: "Open Sans", sans-serif;font-size: 22px;font-weight:300;letter-spacing: 1px;line-height:32px;}
 .headline{
   -webkit-animation:introheader 1s ease-out 0.5s 1 both;
   -moz-animation:introheader 1s ease-out 0.5s 1 both;
@@ -187,7 +187,7 @@ ul.footer-social li{display:inline-block;margin-right:8px;}
 .logo{margin-left:15px;}
 #footer {text-align:center;}
 #footer p {text-align:center;}
-.headline{
+.navbar-nav{
   -webkit-animation:intromenu none;
   -moz-animation:intromenu none;
   -o-animation:intromenu none;
@@ -205,12 +205,6 @@ label{float:none !important}
 .logo{margin-left:15px;}
 #footer {text-align:center;}
 #footer p {text-align:center;}
-.headline{
-  -webkit-animation:intromenu none;
-  -moz-animation:intromenu none;
-  -o-animation:intromenu none;
-  animation:intromenu none;
-}
 }
 @media (max-width:450px){#home h1{font-size:30px;}
 .hover-bg{height:170px;}
@@ -218,12 +212,6 @@ label{float:none !important}
 .logo{margin-left:15px;}
 #footer {text-align:center;}
 #footer p {text-align:center;}
-.headline{
-  -webkit-animation:intromenu none;
-  -moz-animation:intromenu none;
-  -o-animation:intromenu none;
-  animation:intromenu none;
-}
 }
 @media (max-width:360px){#home h1{font-size:25px;}
 #main-menu a.navbar-brand{font-size:12px;}
@@ -233,10 +221,4 @@ ol.type li{font-size:10px;}
 .logo{margin-left:15px;}
 #footer {text-align:center;}
 #footer p {text-align:center;}
-.headline{
-  -webkit-animation:intromenu none;
-  -moz-animation:intromenu none;
-  -o-animation:intromenu none;
-  animation:intromenu none;
-}
 }
