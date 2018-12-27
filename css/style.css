@@ -63,7 +63,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #f1f2f4;
+  background: #e7ff87;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -76,7 +76,7 @@ img {
   transition-timing-function: ease-out;
 }
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
-  color: #666;
+  color: #000;
 }
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
