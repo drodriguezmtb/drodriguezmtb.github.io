@@ -1,74 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="iOS app for self service beer bars.">
-      <meta name="keywords" content="design, interface, app, iOS, beer, sketch, interface design, itaca">
-      <meta name="author" content="David Rodriguez">
-      <title>David Rodriguez - Itaca</title>
+      <meta name="description" content="Product designer & UI Developer. Creating digital experiences since 2013. From Barcelona.">
+      <meta name="keywords" content="ui ux, design, project, user experience, web designer, ui design, ux designer, barcelona">
+      <meta name="author" content="Drod">
+      <title>Drod - Product Designer</title>
+
       <!-- Favicon -->
-      <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
-      <!-- Bootstrap core CSS -->
-      <link rel="stylesheet" type="text/css"  href="../css/bootstrap.min.css">
-      <!-- Template Stylesheets -->
-      <link rel="stylesheet" type="text/css"  href="../css/style.css">
-      <!-- Font Icons -->
-      <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
-      <link rel="stylesheet" type="text/css" href="../css/etlinefont.css">
+      <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:800,900|Open+Sans:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-      <!-- Google Adsense Anuncio de pagina mobile -->
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-7020529915263151",
-          enable_page_level_ads: true
-        });
-      </script>
+      <!-- CSS First Charge -->
+      <style>
+        /* .preloader{width:100%;height:100%;position:fixed;top:0;left:0;z-index:9999;background:#fff;}
+        .loader{width:60px;height:60px;border-radius:100%;position:absolute;top:50%;left:50%;z-index:1;margin:-30px 0 0 -30px;background:#d069ff;-webkit-animation:loader-anim 1.5s infinite;animation:loader-anim 1.5s infinite;}
+        @-webkit-keyframes loader-anim{0%{-webkit-transform:scale(0);}
+        100%{opacity:0;-webkit-transform:scale(1);}
+        }
+        @keyframes loader-anim{0%{-webkit-transform:scale(0);transform:scale(0);}
+        100%{opacity:0;-webkit-transform:scale(1);transform:scale(1);}
+        } */
+      </style>
 
-      <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-mixpanel.init("84b7843519b0b5f3059d773e769b1d67");</script><!-- end Mixpanel -->
-      <!-- Google Anayltics -->
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112470782-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-        ga('create', 'UA-71828936-1', 'auto');
-        ga('send', 'pageview');
-
-      </script>
+          gtag('config', 'UA-112470782-1');
+        </script>
    </head>
+
    <body>
       <!-- PRELOADER -->
       <div class="preloader">
          <div class="loader"></div>
       </div>
+
       <!-- Navigation -->
-      <nav id="main-menu" class="navbar navbar-default navbar-fixed-top">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a href="../index.html"><img src="../img/logo.png" class="logo"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="../index.html#portfolio" class="page-scroll">More projects</a></li>
-                  <li><a href="http://davidrodriguez.cat/get-inspired" class="page-scroll">Get inspired!</a></li>
-               </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-         </div>
-         <!-- /.container-fluid -->
+      <nav id="#" class="navbar">
+        <ul class="navbar-list">
+          <li class="logo">
+            <a href="../index.html">
+              <img src="../img/logotype-black.svg" alt="Page logotype">
+            </a>
+          </li>
+          <li><a href="../index.html" class="hvr-underline-from-center">Home</a></li>
+          <li><a href="../about-good.html" class="hvr-underline-from-center">About</a></li>
+        </ul>
       </nav>
+
+
       <!-- Home Section -->
       <section id="itaca" class="text-center">
          <div class="content wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
@@ -134,55 +121,40 @@ mixpanel.init("84b7843519b0b5f3059d773e769b1d67");</script><!-- end Mixpanel -->
                  </div>
               </div>
             </div>
-
-            <div id="disqus_thread"></div>
-             <script>
-
-             /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-             var disqus_config = function () {
-             this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-             this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-             };
-
-             (function() { // DON'T EDIT BELOW THIS LINE
-             var d = document, s = d.createElement('script');
-             s.src = '//http-davidrodriguez-cat.disqus.com/embed.js';
-             s.setAttribute('data-timestamp', +new Date());
-             (d.head || d.body).appendChild(s);
-             })();
-             </script>
-             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-             <script id="dsq-count-scr" src="//http-davidrodriguez-cat.disqus.com/count.js" async></script>
          </div>
       </section>
 
       <!-- Footer -->
       <footer id="footer">
-         <div class="container">
-            <p>&copy;2016 DavidRodríguez. All Rights Reserved.<br>
-            Made in Barcelona.</p>
-            <ul class="footer-social">
-               <li><a href="https://linkedin.com/in/david-rodríguez-valència-54901790"><i class="fa fa-linkedin wow fadeInUp" onclick="ga('send', 'event', 'LinkedIn', 'Click', 'LinkedinVisit')" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
-               <li><a href="https://www.facebook.com/David-Rodr%C3%ADguez-UI-UX-Designer-568748649970433/"><i class="fa fa-facebook wow fadeInUp" onclick="ga('send', 'event', 'Facebook', 'Click', 'FacebookVisit')" data-wow-duration="1s" data-wow-delay="0.4s"></i></a> </li>
-               <li><a href="https://www.instagram.com/fukc.yuo/"><i class="fa fa-instagram wow fadeInUp" onclick="ga('send', 'event', 'Instagram', 'Click', 'InstagramVisit')" data-wow-duration="1s" data-wow-delay="0.6s"></i></a></li>
-               <li><a href="https://dribbble.com/drodriguezmtb"><i class="fa fa-dribbble wow fadeInUp" onclick="ga('send', 'event', 'Dribbble', 'Click', 'DribbbleVisit')" data-wow-duration="1s" data-wow-delay="0.6s"></i></a></li>
-            </ul>
-         </div>
+        <div class="">
+          <h3>Get in touch</h3>
+          <ul class="footer-social">
+            <li><a href="https://www.linkedin.com/in/david-rodriguez-valencia-54901790/?locale=en_US" class="hvr-underline-from-center"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="http://dribbble.com/drod" class="hvr-underline-from-center"><i class="fab fa-dribbble"></i></a></li>
+            <li><a href="http://dribbble.com/drod" class="hvr-underline-from-center"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/drod.dsgn/" class="hvr-underline-from-center"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
       </footer>
-      <!-- jQuery Version 2.1.3 -->
-      <script type="text/javascript" src="../js/jquery.js"></script>
-      <!-- Bootstrap Core JavaScript -->
-      <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-      <!-- Plugin JavaScript -->
-      <!-- <script type="text/javascript" src="js/SmoothScroll.js"></script> -->
-      <!-- <script type="text/javascript" src="js/jquery.isotope.js"></script> -->
-      <script type="text/javascript" src="js/wow.min.js"></script>
-      <!-- Custom Theme JavaScript -->
-      <script type="text/javascript" src="../js/main.js"></script>
-      <script type="text/javascript" src="../js/modernizr.custom.js"></script>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&copy;2018. All Rights Reserved.</p>
+    </div>
+
+      <!-- CSS -->
+      <!-- Preloader -->
+      <!-- <link rel="stylesheet" type="text/cssf"  href="../css/preloader.css"> -->
+      <!-- Template Stylesheets -->
+      <link rel="stylesheet" type="text/css"  href="../css/style.css">
+      <link rel="stylesheet" type="text/css"  href="../css/animations.css">
+      <!-- Font Icons -->
+      <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+      <!-- JS -->
+      <!--Start Cookie Script-->
+      <script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/2b2d06ddfee148697873ea1389b0a625.js"></script>
+      <!--End Cookie Script-->
    </body>
 </html>
