@@ -1,6 +1,6 @@
 /* General styles */
 body {
-  background-color: #E3CACB;
+  background-color: #2A4295;
 }
 
 
@@ -9,7 +9,7 @@ main {
   margin-right: auto;
   max-width: 60em;
   line-height: 1.5;
-  color: #2B2F3D;
+  color: #E3CACB;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
   line-height: 1.3;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #AB9B9F;
+  color: #908CD8;
   margin: 0;
 }
 
@@ -28,16 +28,17 @@ p {
 }
 
 a {
-  color: #8783D1;
+  color: transparent;
   text-decoration: none;
+  -webkit-text-stroke: 1px white;
 }
 
 a:hover {
-  color: #8783D1;
+  color: #fff;
 }
 
 hr {
-  border: 1px solid #CFBABC;
+  border: 1px solid #908CD8;
 }
 
 img {
@@ -64,7 +65,7 @@ img {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #8783D1;
+  background: #fff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
