@@ -38,7 +38,7 @@ a:hover {
 }
 
 hr {
-  border: 1px solid #908CD8;
+  border: 1px solid #5651AF;
 }
 
 img {
@@ -102,6 +102,10 @@ img {
   p {
     font-size: 2.5em;
   }
+  a {
+    color: white;
+    -webkit-text-stroke: 0px;
+  }
 }
 
 @media (max-width:550px){
@@ -111,6 +115,9 @@ img {
   }
   p {
     font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1em;
   }
 }
 
