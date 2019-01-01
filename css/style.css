@@ -1,3 +1,17 @@
+/* Druk Wide Super */
+/* @font-face {
+  font-family: 'Drod Web';
+  src: url('../fonts/Drod-Web.eot');
+  src: url('../fonts/Drod-Web.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Drod-Web.woff') format('woff'),
+     url('../fonts/Drod-Web.ttf') format('truetype'),
+     url('../fonts/Drod-Web.svg#Drod Web') format('svg');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+} */
+
+
 /* General styles */
 body {
   background-color: #2A4295;
