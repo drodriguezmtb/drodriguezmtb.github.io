@@ -1,148 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Interface & User Experience. Creating digital experiences since 2013. From Barcelona.">
-      <meta name="keywords" content="ui ux, design, project, user experience, web designer, ui design, ux designer, barcelona">
-      <meta name="author" content="David Rodriguez">
-      <title>Notegraphy</title>
-      <!-- Favicon -->
-      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Product designer & UI Developer. Creating digital experiences since 2013. From Barcelona.">
+  <meta name="keywords" content="portfolio, mobile designer, user experience, product designer, ui designer, ux designer, designer barcelona">
+  <meta name="author" content="Drod">
+  <title>Drod - Notegraphy</title>
 
-      <!-- CSS First Charge -->
-      <style>
-        .preloader{width:100%;height:100%;position:fixed;top:0;left:0;z-index:9999;background:#090C11;}
-        .loader{width:60px;height:60px;border-radius:100%;position:absolute;top:50%;left:50%;z-index:1;margin:-30px 0 0 -30px;background:#d069ff;-webkit-animation:loader-anim 1.5s infinite;animation:loader-anim 1.5s infinite;}
-        @-webkit-keyframes loader-anim{0%{-webkit-transform:scale(0);}
-        100%{opacity:0;-webkit-transform:scale(1);}
-        }
-        @keyframes loader-anim{0%{-webkit-transform:scale(0);transform:scale(0);}
-        100%{opacity:0;-webkit-transform:scale(1);transform:scale(1);}
-        }
-      </style>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-      <!-- Google Anayltics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112470782-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css"  href="css/style.css">
 
-          gtag('config', 'UA-112470782-1');
-        </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112470782-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-   </head>
+    gtag('config', 'UA-112470782-1');
+  </script>
+</head>
+
    <body>
       <!-- PRELOADER -->
       <div class="preloader">
          <div class="loader"></div>
       </div>
 
-      <!-- Navigation -->
-      <nav id="main-menu" class="navbar navbar-default navbar-fixed-top">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar" style="width:15px"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a href="https://drod.design/"><img src="img/logotype.svg" alt="Page logotype" class="logo"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="about.html" class="page-scroll">About</a></li>
-                  <!-- <li><a href="#Contact" class="page-scroll">Contact</a></li> -->
-               </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-         </div>
-         <!-- /.container-fluid -->
-      </nav>
+      <main>
+        <p class="animated fadeInLeft">
+          <a href="projects.html" class="hvr-underline-from-left">< Back to projects</a>
+        </p>
 
-      <!-- Header section -->
-      <section id="header">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6 col-sm-6 headline">
-                  <h1 class="">Notegraphy</h1><h2>iOS & Android App</h2>
-               </div>
-            </div>
-         </div>
-      </section>
+        <hr class="animated fadeIn delay-1s">
+        <p class="animated fadeInRight">Notegraphy.<br> Making posts look beautiful.</p>
 
-      <section>
-        <div class="container" style="margin-bottom:100px;">
-          <img src="img/works/notegraphy-page.jpg" class="img-responsive" alt="Fab11 project photo" style="width:100%;">
-        </div>
-      </section>
+        <img src="img/works/notegraphy-page.jpg" alt="Project presentation image. Floating mobiles with some screen examples of the app." class="animated fadeIn delay-1s">
 
-      <section id="resume" class="education">
-        <div class="container">
-          <div class="row" style="padding:0px 0;">
-            <div class="col-md-6 col-sm-6">
-              <p>Notegraphy lets you write and publish everything you want to share with added style, everything you write and share will look just beautiful. It has more than 40 templates made by some of the world's best graphic designers.</p>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <p></p>
-            </div>
-          </div>
+        <h2 class="animated fadeIn delay-1s">What</h2>
+        <p class="animated fadeInLeft">
+          Mobile Application - iOS & Android
+        </p>
 
-        </div>
-      </section>
+        <hr class="animated fadeIn delay-1s">
+        <h2 class="animated fadeIn delay-1s">When</h2>
+        <p class="animated fadeInRight">
+          Sep - Dic 2015
+        </p>
 
-      <section>
-         <!-- <div id="map"></div> -->
-      </section>
+        <hr class="animated fadeIn delay-1s">
+        <h2 class="animated fadeIn delay-1s">Overview</h2>
+        <p class="animated fadeInLeft">
+          Our goal was to create an easy way for 'Itaca' customers to pay their
+          beers through their mobiles (Apple Pay did not exist yet).
+          In order to create engagement the customers earn points for each
+          payment and this lets them upgrade their 'status' and get special offers.
+        </p>
 
-      <!-- Footer -->
-      <footer id="footer">
-         <div class="container">
-           <div class="row">
-             <div class="col-sm-6 col-md-6 col-lg-6 an-social">
-                <ul class="footer-social">
-                   <li><a href="https://www.linkedin.com/in/david-rodriguez-valencia-54901790/?locale=en_US"><i class="fa fa-linkedin"></i></a></li>
-                   <li><a href="https://www.instagram.com/drod.dsgn/"><i class="fa fa-instagram"></i></a></li>
-                   <li><a href="http://dribbble.com/drod"><i class="fa fa-dribbble"></i></a></li>
-                </ul>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-6 an-copyright">
-                <p>Drod&copy;2018. All Rights Reserved.</p>
-              </div>
-            </div>
-         </div>
-      </footer>
+        <hr class="animated fadeIn delay-1s">
+        <h2 class="animated fadeIn delay-1s">Project timeline</h2>
+        <img src="img/test.png" alt="Graphic representing the project timeline."  class="animated fadeIn delay-1s">
+
+        <h2 class="animated fadeIn delay-1s">My role</h2>
+        <p class="animated fadeInRight">
+          As a UI Designer I was defining a basic architecture and the styling of
+          the app based in an existing styleguide, guided by a senior designer.
+          We applied native components to be faster.
+        </p>
+
+        <hr class="animated fadeIn delay-1s">
+        <h2 class="animated fadeIn delay-1s">What I learned</h2>
+        <p class="animated fadeInLeft">
+          I am proud of this project because it was my first mobile app.
+          Despite it was a small project it means to me the first interaction with
+          a couple of new things like iOS & Android guidelines, designing in sprints with agile,
+          working closely with developers and how this collaboration becomes rapidly into a real product.
+        </p>
+
+        <hr class="animated fadeIn delay-1s">
+        <h2 class="animated fadeIn delay-1s">More information</h2>
+        <p class="animated fadeInRight">
+          Check more about the project at the following <a href="https://notegraphy.com/" target="_blank" class="hvr-underline-from-left">link</a>.
+        </p>
+
+        <hr class="animated fadeIn delay-1s">
+        <p class="animated fadeInLeft">
+          &copy;2019. All Rights Reserved.
+        </p>
+      </main>
+
+
       <!-- CSS -->
-      <!-- Preloader -->
-      <!-- <link rel="stylesheet" type="text/cssf"  href="../css/preloader.css"> -->
-      <!-- Bootstrap core CSS -->
-      <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
       <!-- Template Stylesheets -->
-      <link rel="stylesheet" type="text/css"  href="css/style.css">
-
-      <!-- Font Icons -->
-      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-      <link rel="stylesheet" type="text/css" href="css/etlinefont.css">
-      <!-- Google Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-      <!-- JS -->
+      <link rel="stylesheet" type="text/css"  href="css/animate.min.css">
       <!-- jQuery Version 2.1.3 -->
       <script type="text/javascript" src="js/jquery.js"></script>
-      <!-- Bootstrap Core JavaScript -->
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <!-- Plugin JavaScript -->
-      <script type="text/javascript" src="js/jquery.isotope.js"></script>
-      <!-- Google Map JavaScript -->
-      <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
-      <script src="js/map.js"></script>
-      <!-- Custom Theme JavaScript -->
-      <script type="text/javascript" src="js/main.js"></script>
-      <script type="text/javascript" src="js/modernizr.custom.js"></script>
-      <!--Start Cookie Script-->
-      <script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/2b2d06ddfee148697873ea1389b0a625.js"></script>
-      <!--End Cookie Script-->
    </body>
 </html>
